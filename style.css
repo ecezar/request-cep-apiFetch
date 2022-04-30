@@ -14,21 +14,25 @@ button {
   height: 30px;
   width: 75px;
   cursor: pointer;
+  margin: 10px 15px;
 }
 button:hover{
   background-color: aliceblue;
   color: #000;
   border: 1px solid #000;
 }
+form {
+  width: 210px;
+  margin: auto;
+}
 .container {
   max-width: 500px;
   background-color: coral;
   margin: auto;
-  
 }
 .form-group {
   display: block;
-  padding: 10px 0 10px 15px;
+  padding: 10px 15px;
 }
 
 #numero {
