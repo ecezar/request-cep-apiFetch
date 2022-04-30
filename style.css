@@ -5,10 +5,26 @@
 body {
   font-family: 'IBM Plex Mono';
 }
+button {
+  color: rgb(254, 163, 77);
+  background-color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: monospace;
+  border: 1px solid rgb(254, 163, 77);
+  height: 30px;
+  width: 75px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: aliceblue;
+  color: #000;
+  border: 1px solid #000;
+}
 .container {
   max-width: 500px;
   background-color: coral;
   margin: auto;
+  
 }
 .form-group {
   display: block;
