@@ -6,6 +6,7 @@ const showData = (result) => {
       document.querySelector('#' + campo).value = result[campo];
     }
   }
+  console.log(result);
 };
 
 cep.addEventListener('blur', (e) => {
